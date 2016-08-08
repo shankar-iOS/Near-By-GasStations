@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		584B12CF1D56974B00C2F9B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12CE1D56974B00C2F9B2 /* main.m */; };
+		584B12D21D56974B00C2F9B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12D11D56974B00C2F9B2 /* AppDelegate.m */; };
+		584B12D81D56974B00C2F9B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B12D61D56974B00C2F9B2 /* Main.storyboard */; };
+		584B12DA1D56974B00C2F9B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584B12D91D56974B00C2F9B2 /* Assets.xcassets */; };
+		584B12DD1D56974B00C2F9B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584B12DB1D56974B00C2F9B2 /* LaunchScreen.storyboard */; };
+		584B12E61D56976100C2F9B2 /* NSString+KeyString.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12E51D56976100C2F9B2 /* NSString+KeyString.m */; };
+		584B12ED1D56976C00C2F9B2 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12E81D56976C00C2F9B2 /* CustomCell.m */; };
+		584B12EE1D56976C00C2F9B2 /* GasStationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12EA1D56976C00C2F9B2 /* GasStationsViewController.m */; };
+		584B12EF1D56976C00C2F9B2 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12EC1D56976C00C2F9B2 /* detailViewController.m */; };
+		584B12F81D56977900C2F9B2 /* GasStationViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12F11D56977900C2F9B2 /* GasStationViewModel.m */; };
+		584B12F91D56977900C2F9B2 /* iService.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12F31D56977900C2F9B2 /* iService.m */; };
+		584B12FA1D56977900C2F9B2 /* GPSService.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12F51D56977900C2F9B2 /* GPSService.m */; };
+		584B12FB1D56977900C2F9B2 /* APICall.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12F71D56977900C2F9B2 /* APICall.m */; };
+		584B13001D56978300C2F9B2 /* GasStation.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12FD1D56978300C2F9B2 /* GasStation.m */; };
+		584B13011D56978300C2F9B2 /* GasStationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B12FF1D56978300C2F9B2 /* GasStationManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		584B12CA1D56974B00C2F9B2 /* GasStations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasStations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584B12CE1D56974B00C2F9B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584B12D01D56974B00C2F9B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		584B12D11D56974B00C2F9B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		584B12D71D56974B00C2F9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		584B12D91D56974B00C2F9B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		584B12DC1D56974B00C2F9B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		584B12DE1D56974B00C2F9B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584B12E41D56976100C2F9B2 /* NSString+KeyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KeyString.h"; sourceTree = "<group>"; };
+		584B12E51D56976100C2F9B2 /* NSString+KeyString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KeyString.m"; sourceTree = "<group>"; };
+		584B12E71D56976C00C2F9B2 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		584B12E81D56976C00C2F9B2 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		584B12E91D56976C00C2F9B2 /* GasStationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationsViewController.h; sourceTree = "<group>"; };
+		584B12EA1D56976C00C2F9B2 /* GasStationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationsViewController.m; sourceTree = "<group>"; };
+		584B12EB1D56976C00C2F9B2 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		584B12EC1D56976C00C2F9B2 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		584B12F01D56977900C2F9B2 /* GasStationViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationViewModel.h; sourceTree = "<group>"; };
+		584B12F11D56977900C2F9B2 /* GasStationViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationViewModel.m; sourceTree = "<group>"; };
+		584B12F21D56977900C2F9B2 /* iService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iService.h; sourceTree = "<group>"; };
+		584B12F31D56977900C2F9B2 /* iService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iService.m; sourceTree = "<group>"; };
+		584B12F41D56977900C2F9B2 /* GPSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSService.h; sourceTree = "<group>"; };
+		584B12F51D56977900C2F9B2 /* GPSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSService.m; sourceTree = "<group>"; };
+		584B12F61D56977900C2F9B2 /* APICall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APICall.h; sourceTree = "<group>"; };
+		584B12F71D56977900C2F9B2 /* APICall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APICall.m; sourceTree = "<group>"; };
+		584B12FC1D56978300C2F9B2 /* GasStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStation.h; sourceTree = "<group>"; };
+		584B12FD1D56978300C2F9B2 /* GasStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStation.m; sourceTree = "<group>"; };
+		584B12FE1D56978300C2F9B2 /* GasStationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasStationManager.h; sourceTree = "<group>"; };
+		584B12FF1D56978300C2F9B2 /* GasStationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasStationManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584B12C71D56974B00C2F9B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584B12C11D56974B00C2F9B2 = {
+			isa = PBXGroup;
+			children = (
+				584B12CC1D56974B00C2F9B2 /* GasStations */,
+				584B12CB1D56974B00C2F9B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584B12CB1D56974B00C2F9B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584B12CA1D56974B00C2F9B2 /* GasStations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584B12CC1D56974B00C2F9B2 /* GasStations */ = {
+			isa = PBXGroup;
+			children = (
+				584B13041D569BDC00C2F9B2 /* Extentions */,
+				584B13051D569BF500C2F9B2 /* ViewModel */,
+				584B13031D569BB300C2F9B2 /* Model */,
+				584B13071D569C5100C2F9B2 /* ViewControllers */,
+				584B12D01D56974B00C2F9B2 /* AppDelegate.h */,
+				584B12D11D56974B00C2F9B2 /* AppDelegate.m */,
+				584B12D61D56974B00C2F9B2 /* Main.storyboard */,
+				584B12CD1D56974B00C2F9B2 /* Supporting Files */,
+			);
+			path = GasStations;
+			sourceTree = "<group>";
+		};
+		584B12CD1D56974B00C2F9B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584B12D91D56974B00C2F9B2 /* Assets.xcassets */,
+				584B12DB1D56974B00C2F9B2 /* LaunchScreen.storyboard */,
+				584B12DE1D56974B00C2F9B2 /* Info.plist */,
+				584B12CE1D56974B00C2F9B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		584B13031D569BB300C2F9B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				584B12FC1D56978300C2F9B2 /* GasStation.h */,
+				584B12FD1D56978300C2F9B2 /* GasStation.m */,
+				584B12FE1D56978300C2F9B2 /* GasStationManager.h */,
+				584B12FF1D56978300C2F9B2 /* GasStationManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		584B13041D569BDC00C2F9B2 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				584B12E41D56976100C2F9B2 /* NSString+KeyString.h */,
+				584B12E51D56976100C2F9B2 /* NSString+KeyString.m */,
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
+		584B13051D569BF500C2F9B2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				584B12F01D56977900C2F9B2 /* GasStationViewModel.h */,
+				584B12F11D56977900C2F9B2 /* GasStationViewModel.m */,
+				584B12F21D56977900C2F9B2 /* iService.h */,
+				584B12F31D56977900C2F9B2 /* iService.m */,
+				584B12F41D56977900C2F9B2 /* GPSService.h */,
+				584B12F51D56977900C2F9B2 /* GPSService.m */,
+				584B12F61D56977900C2F9B2 /* APICall.h */,
+				584B12F71D56977900C2F9B2 /* APICall.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		584B13061D569C3200C2F9B2 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				584B12E71D56976C00C2F9B2 /* CustomCell.h */,
+				584B12E81D56976C00C2F9B2 /* CustomCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		584B13071D569C5100C2F9B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				584B13061D569C3200C2F9B2 /* CustomCells */,
+				584B12E91D56976C00C2F9B2 /* GasStationsViewController.h */,
+				584B12EA1D56976C00C2F9B2 /* GasStationsViewController.m */,
+				584B12EB1D56976C00C2F9B2 /* detailViewController.h */,
+				584B12EC1D56976C00C2F9B2 /* detailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584B12C91D56974B00C2F9B2 /* GasStations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584B12E11D56974B00C2F9B2 /* Build configuration list for PBXNativeTarget "GasStations" */;
+			buildPhases = (
+				584B12C61D56974B00C2F9B2 /* Sources */,
+				584B12C71D56974B00C2F9B2 /* Frameworks */,
+				584B12C81D56974B00C2F9B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasStations;
+			productName = GasStations;
+			productReference = 584B12CA1D56974B00C2F9B2 /* GasStations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584B12C21D56974B00C2F9B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shankar;
+				TargetAttributes = {
+					584B12C91D56974B00C2F9B2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 584B12C51D56974B00C2F9B2 /* Build configuration list for PBXProject "GasStations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584B12C11D56974B00C2F9B2;
+			productRefGroup = 584B12CB1D56974B00C2F9B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584B12C91D56974B00C2F9B2 /* GasStations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584B12C81D56974B00C2F9B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B12DD1D56974B00C2F9B2 /* LaunchScreen.storyboard in Resources */,
+				584B12DA1D56974B00C2F9B2 /* Assets.xcassets in Resources */,
+				584B12D81D56974B00C2F9B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584B12C61D56974B00C2F9B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584B12FB1D56977900C2F9B2 /* APICall.m in Sources */,
+				584B12FA1D56977900C2F9B2 /* GPSService.m in Sources */,
+				584B13011D56978300C2F9B2 /* GasStationManager.m in Sources */,
+				584B13001D56978300C2F9B2 /* GasStation.m in Sources */,
+				584B12D21D56974B00C2F9B2 /* AppDelegate.m in Sources */,
+				584B12CF1D56974B00C2F9B2 /* main.m in Sources */,
+				584B12EE1D56976C00C2F9B2 /* GasStationsViewController.m in Sources */,
+				584B12ED1D56976C00C2F9B2 /* CustomCell.m in Sources */,
+				584B12E61D56976100C2F9B2 /* NSString+KeyString.m in Sources */,
+				584B12EF1D56976C00C2F9B2 /* detailViewController.m in Sources */,
+				584B12F81D56977900C2F9B2 /* GasStationViewModel.m in Sources */,
+				584B12F91D56977900C2F9B2 /* iService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		584B12D61D56974B00C2F9B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584B12D71D56974B00C2F9B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		584B12DB1D56974B00C2F9B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584B12DC1D56974B00C2F9B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584B12DF1D56974B00C2F9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		584B12E01D56974B00C2F9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584B12E21D56974B00C2F9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GasStations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gasStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		584B12E31D56974B00C2F9B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GasStations/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gasStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584B12C51D56974B00C2F9B2 /* Build configuration list for PBXProject "GasStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584B12DF1D56974B00C2F9B2 /* Debug */,
+				584B12E01D56974B00C2F9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584B12E11D56974B00C2F9B2 /* Build configuration list for PBXNativeTarget "GasStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584B12E21D56974B00C2F9B2 /* Debug */,
+				584B12E31D56974B00C2F9B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584B12C21D56974B00C2F9B2 /* Project object */;
+}
